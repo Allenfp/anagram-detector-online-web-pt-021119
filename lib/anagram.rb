@@ -12,7 +12,7 @@ class Anagram
     work_list.each { |x|
       puts x.split.sort
       puts @word.split.sort
-      if x.split.sort == @word.split.sort
+      if x.split("").sort == @word.split("").sort
         return_value.push(x)
       end
       }
