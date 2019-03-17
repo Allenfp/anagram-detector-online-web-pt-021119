@@ -14,6 +14,7 @@ class Anagram
         return_value.push(x)
 
       }
+    return_value
   end
 
 end
