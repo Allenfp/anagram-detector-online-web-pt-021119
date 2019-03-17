@@ -10,8 +10,8 @@ class Anagram
   def match(work_list)
     return_value = []
     work_list.each { |x|
-      x.split.sort
-      @word.split.sort
+      puts x.split.sort
+      puts @word.split.sort
       if x.split.sort == @word.split.sort
         return_value.push(x)
       end
