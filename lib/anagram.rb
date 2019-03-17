@@ -7,7 +7,7 @@ class Anagram
     @word = word
   end
 
-  def self.match(work_list)
+  def match(work_list)
     return_value = []
     work_list.each { |x|
       if x.split.sort = @word.split.sort
